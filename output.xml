@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on win32)" generated="2025-01-29T23:45:33.628718" rpa="false" schemaversion="5">
+<suite id="s1" name="Index" source="D:\visual\teste\index.robot">
+<test id="s1-t1" name="Open Browser" line="6">
+<kw name="Open browser">
+<kw name="Open browser">
+<msg time="2025-01-29T23:45:33.903498" level="FAIL">Keyword 'Open browser' expected 0 arguments, got 2.</msg>
+<arg>url=https://www.google.com</arg>
+<arg>browser=chrome</arg>
+<status status="FAIL" start="2025-01-29T23:45:33.903380" elapsed="0.000162">Keyword 'Open browser' expected 0 arguments, got 2.</status>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2025-01-29T23:45:33.903971" elapsed="0.000028"/>
+</kw>
+<status status="FAIL" start="2025-01-29T23:45:33.903114" elapsed="0.000979">Keyword 'Open browser' expected 0 arguments, got 2.</status>
+</kw>
+<status status="FAIL" start="2025-01-29T23:45:33.902591" elapsed="0.001734">Keyword 'Open browser' expected 0 arguments, got 2.</status>
+</test>
+<status status="FAIL" start="2025-01-29T23:45:33.630217" elapsed="0.274940"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Index" id="s1" pass="0" fail="1" skip="0">Index</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
