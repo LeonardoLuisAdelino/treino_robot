@@ -1,8 +1,11 @@
 *** Settings ***
-Library    SeleniumLibrary
+Resource  ../main.robot
 
 
 *** Keywords ***
-Open browser
+Dado que eu acesse o Swag Labs
     Open Browser   url=https://www.saucedemo.com/   browser=Chrome
     Maximize Browser Window
+
+Fechar o navegador
+    Close Browser
