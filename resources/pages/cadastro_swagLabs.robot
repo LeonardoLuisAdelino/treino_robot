@@ -1,6 +1,7 @@
 *** Settings ***
 Resource  ../main.robot
 Library    SeleniumLibrary
+Library    FakerLibrary
 
 *** Variables ***
 ${CAMPO_USUARIO}  id:user-name
